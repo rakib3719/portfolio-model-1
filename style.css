@@ -1,0 +1,165 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+
+    background-color: #FFF8F3;
+    background-image: url("./images/header_bg.png" ), url("./images/developer.png");
+    background-repeat: no-repeat;
+    background-position: right bottom, left bottom;
+ 
+
+ 
+}
+header p{
+color: #757575;
+
+}
+nav{
+
+    display: flex;
+padding: 0px 100px;
+justify-content: space-around;
+padding-top: 60px;
+align-items: center;
+}
+
+ul{
+
+    display: flex;
+    align-items: center;
+}
+
+
+nav > ul li {
+
+list-style: none;
+
+
+}
+nav > ul li a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 9px 87px;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+}
+
+.primary-btn {
+    border: none;
+    background-color: #FD6E0A;
+ 
+    padding: 11px 18px;
+    border-radius: 5px;
+}
+.primary-btn a{
+
+text-decoration: none;
+color: #fff;
+
+}
+
+.banner{
+
+    padding: 14px 44px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner-left{}
+.banner-left .banner-intro{
+font-size: 30px;
+font-weight: 400;
+color: #474747;
+
+}
+.banner-left h1{
+
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.banner-left p{
+
+    margin-bottom: 10px;
+    width: 350px;
+}
+.banner-right{
+
+  
+}
+
+.banner-right img{
+    width: 400px;
+height: 550px;
+
+}
+
+main{
+
+padding: 0px 140px;
+
+
+}
+
+section{
+
+    margin-top: 100px;
+}
+
+    .about {
+        background-color: #FFF8F3;
+        padding: 81px 137px;
+    }
+
+
+.section-title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.section-description{
+
+    color: #757575;
+    margin-bottom: 10px;
+
+
+   
+}
+
+.about-datails{
+
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.about-detail-title{
+
+    color: #757575;
+}
+
+.about-details-main{
+  
+}
+
+.service{
+
+   display: flex;
+}
+
+.service-details{
+
+
+    
+}
+.service-details h4{}
+.service-details p{}
